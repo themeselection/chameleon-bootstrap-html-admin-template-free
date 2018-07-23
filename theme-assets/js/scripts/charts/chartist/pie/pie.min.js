@@ -1,0 +1,1 @@
+$(window).on("load",function(){var e={series:[5,3,4]},r=function(n,e){return n+e};new Chartist.Pie("#pie-chart",e,{labelInterpolationFnc:function(n){return Math.round(n/e.series.reduce(r)*100)+"%"}})});

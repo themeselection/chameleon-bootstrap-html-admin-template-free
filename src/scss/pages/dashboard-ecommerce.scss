@@ -1,0 +1,248 @@
+// ================================================================================================
+// 	File Name: dashboard-ecommerce.scss
+// 	Description: SCC file for e-commerce dashboard page.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
+// 	Version: 1.0
+// 	Author: ThemeSelection
+// 	Author URL: https://themeselection.com/
+// ================================================================================================
+
+// Core variables and mixins
+@import "../bootstrap/functions";
+@import "../bootstrap/mixins";
+@import "../bootstrap-extended/mixins";
+
+// Load variable overrides
+@import "../core/variables/variables";
+@import "../core/variables/components-variables";
+
+// Overrides user variable
+@import "../../../assets/scss/variables/variables";
+@import "../../../assets/scss/variables/components-variables";
+
+.chartist-tooltip{
+	z-index: 10000 !important;
+}
+
+#scoreLineToDay{
+	.ct-series-a{
+		.ct-line{
+			stroke: url(#scoreLineToDay-gradient);
+			stroke-width: 5px;
+		}
+	}
+}
+
+#scoreLineToWeek{
+	.ct-series-a{
+		.ct-line{
+			stroke: url(#scoreLineToWeek-gradient);
+			stroke-width: 5px;
+		}
+	}
+}
+
+#scoreLineToMonth{
+	.ct-series-a{
+		.ct-line{
+			stroke: url(#scoreLineToMonth-gradient);
+			stroke-width: 5px;
+		}
+	}
+}
+
+.ct-area-circle{
+	fill: $success;
+	stroke-width: 5;
+	stroke: $white;
+}
+
+
+.ct-line-circle-transperent{
+	fill: transparent ;
+	stroke: transparent;
+}
+
+.scoreLineShadow {
+    -webkit-filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.1));
+}
+
+
+// Line Gradient Chart 1 CSS Starts
+  
+#gradient-line-chart1 .ct-series.ct-series-a .ct-line { stroke: url(#lineLinear1) !important; stroke-width: 8px; }
+#gradient-line-chart1 .ct-series.ct-series-a .ct-point-circle{fill:url(#lineLinear1) !important;stroke-width:9;stroke:#fff;}
+#gradient-line-chart1 .ct-series.ct-series-b .ct-line { stroke: url(#lineLinear2) !important; stroke-width: 4px; }    
+#gradient-line-chart1 .ct-series.ct-series-b .ct-point-circle{fill:url(#lineLinear2) !important;stroke-width:9;stroke:#fff;}
+
+#gradient-line-chart1 .ct-series-a .ct-point-circle-transperent {     
+   fill: transparent ;
+   stroke: transparent;
+}
+
+#gradient-line-chart1 .ct-series-b .ct-point-circle-transperent {     
+	fill: transparent;
+	stroke: transparent;
+ }
+
+ #gradient-line-chart1 .ct-series-a .ct-point:hover {     
+    fill:url(#lineLinear1) !important;stroke-width:9;stroke:#fff;
+ }
+
+
+ #gradient-line-chart1 .ct-series-b .ct-point:hover {     
+    fill:url(#lineLinear2) !important;stroke-width:9;stroke:#fff;
+ }
+
+
+ #gradient-line-chart1 .ct-grid {     
+	stroke:#fff;
+	stroke-width: 0.1px;
+   stroke-dasharray: 0px; 
+ }
+
+ #gradient-line-chart1 .ct-label {     
+    color:gray;
+ }
+
+.GradientlineShadow1{
+    -webkit-filter: drop-shadow( 0px 12px 3px rgba(0,0,0,1) );
+            filter: drop-shadow( 0px 12px 3px rgba(0,0,0,1) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+
+}
+
+// Line Gradient Chart 1 CSS Ends
+
+.content-wrapper-before{
+	height: 300px !important;
+}
+
+.content{
+	.content-wrapper{
+		padding-top: 0 !important;
+	}
+}
+
+ 
+  // Quarterly sales bar chart CSS Starts
+
+  #quarterly-sales .ct-series-a {
+    .ct-bar {
+          stroke: url(#barGradient1);
+    }
+    .ct-slice-pie {
+      fill: #fd636b;
+  }
+}
+
+// New Customers Donut Chart Ends
+#new-customers .ct-slice-donut-solid {
+    fill: url(#donutGradient5);
+}  
+
+#new-customers .ct-chart-donut .ct-series {
+    stroke: #fff;
+    stroke-width: 0px;
+}
+
+#new-customers .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 45px;
+    font-weight: 700;
+    fill: rgb(253,99,107)
+  }
+
+  .donutShadow{    
+    filter: drop-shadow(4px 11px 9px rgba(0, 0, 0, 0.3)); /* Same syntax as box-shadow, except  for the spread property */
+  }
+
+
+
+//Progress Stats
+  .progress-stats-container {
+	position: relative;
+  }
+
+  .progress-stats-container > * {
+	position: absolute;
+	width: 100%;
+
+  }
+
+  #progress-stats-bar-chart {
+	.ct-series-a .ct-bar{
+		stroke:#f5f5f7;
+	}
+  }
+
+  
+#progress-stats-line-chart .ct-series.ct-series-a .ct-line { stroke: url(#lineLinearStats) !important; stroke-width: 6px; }
+#progress-stats-line-chart .ct-series-a .ct-point{     
+	fill: transparent ;
+	stroke: transparent;
+ }
+
+#progress-stats-line-chart .ct-series-a .ct-point:hover {     
+    fill:url(#lineLinearStats) !important;stroke-width:4;stroke:#fff;
+ }
+
+ #progress-stats-line-chart .ct-series-a .ct-point-circle {     
+    fill:url(#lineLinearStats) !important;stroke-width:4;stroke:#fff;
+ }
+
+ #progress-stats-bar-chart1 {
+	.ct-series-a .ct-bar{
+		stroke:#f5f5f7;
+	}
+  }
+
+  
+#progress-stats-line-chart1 .ct-series.ct-series-a .ct-line { stroke: url(#lineLinearStats1) !important; stroke-width: 6px; }
+#progress-stats-line-chart1 .ct-series-a .ct-point{     
+	fill: transparent ;
+	stroke: transparent;
+ }
+
+#progress-stats-line-chart1 .ct-series-a .ct-point:hover {     
+    fill:url(#lineLinearStats1) !important;stroke-width:4;stroke:#fff;
+ }
+
+ #progress-stats-line-chart1 .ct-series-a .ct-point-circle {     
+    fill:url(#lineLinearStats1) !important;stroke-width:4;stroke:#fff;
+ }
+
+ #progress-stats-bar-chart2 {
+	.ct-series-a .ct-bar{
+		stroke:#f5f5f7;
+	}
+  }
+
+  
+#progress-stats-line-chart2 .ct-series.ct-series-a .ct-line { stroke: url(#lineLinearStats2) !important; stroke-width: 6px; }
+#progress-stats-line-chart2 .ct-series-a .ct-point{     
+	fill: transparent ;
+	stroke: transparent;
+ }
+
+#progress-stats-line-chart2 .ct-series-a .ct-point:hover {     
+    fill:url(#lineLinearStats2) !important;stroke-width:4;stroke:#fff;
+ }
+
+ #progress-stats-line-chart2 .ct-series-a .ct-point-circle {     
+    fill:url(#lineLinearStats2) !important;stroke-width:4;stroke:#fff;
+ }
+
+.progress-stats-shadow{
+    -webkit-filter: drop-shadow( 0px 16px 3px rgba(0,0,0,0.2) );
+            filter: drop-shadow( 0px 16px 3px rgba(0,0,0,0.2) ); 
+}
+
+.text-decoration{
+	text-decoration: line-through;
+  }
+
+

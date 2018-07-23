@@ -1,0 +1,29 @@
+.modal-content{
+    box-shadow: 0px 10px 50px 0px rgba($gray-800, 0.8) !important;
+}
+.modal-sm {
+	max-width: 400px;
+}
+.modal-xs {
+	max-width: 300px;
+}
+.modal-xl {
+	max-width: 94%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.icon-align{
+	margin-top: 0.6rem;
+    margin-left: 0.5rem;
+}
+
+.bd-example-modal .modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
+    display: block;
+    overflow: visible;
+}

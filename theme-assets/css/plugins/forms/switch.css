@@ -1,0 +1,25 @@
+/* Switchery */
+.switchery
+{
+    bottom: 4px;
+
+    margin-top: 5px;
+}
+
+.float-right .switchery,
+.switchery-large.switchery
+{
+    margin-bottom: .35rem;
+}
+
+.switchery-xsmall.switchery
+{
+    width: 28px; 
+    height: 16px;
+}
+
+.switchery-xsmall.switchery > small
+{
+    width: 16px; 
+    height: 16px;
+}

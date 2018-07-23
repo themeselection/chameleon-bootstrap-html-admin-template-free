@@ -1,0 +1,26 @@
+{
+  "html": "html",
+  "assets": "assets",
+  "theme_assets": "theme-assets",
+  "assets_path": "../../../assets",
+  "theme_assets_path": "../../../theme-assets",
+  "destination": {
+    "js": "theme-assets/js",
+    "css": "theme-assets/css"
+  },
+  "source": {
+    "path": "src",
+    "js": "src/js",
+    "sass": "src/scss"
+  },
+  "autoprefixerBrowsers": [
+    "Android 2.3",
+    "Android >= 4",
+    "Chrome >= 25",
+    "Firefox >= 15",
+    "Explorer >= 9",
+    "iOS >= 6",
+    "Opera >= 12",
+    "Safari >= 6"
+  ]
+}

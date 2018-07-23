@@ -1,0 +1,469 @@
+  // Line area chart CSS Starts
+
+  #areaGradient .ct-series-a .ct-area {
+    fill-opacity: 1;
+    fill: #7396ff !important;
+}
+
+#areaGradient .ct-series-b .ct-area {
+    fill-opacity: 0.3;
+    fill: #7396ff !important;
+}
+
+#areaGradient .ct-series-c .ct-area {
+    fill-opacity: 0.15;
+    fill: #7396ff !important;
+}
+
+
+#areaGradient .ct-line{
+    stroke-width: 0px;
+}
+#areaGradient .ct-series-b .ct-point {
+    stroke-width: 0px;
+}
+
+
+#areaGradient .ct-series-b{
+    .ct-point-circle {
+        display: none;
+    }
+    .ct-point-circle-transperent  {
+        display: none;
+    }
+} 
+
+
+#areaGradient .ct-series-a .ct-point-circle {
+    fill:#7396ff;
+    stroke-width:7;
+    stroke:#fff;
+}
+
+#areaGradient .ct-series-c .ct-point-circle {
+    fill:#7396ff;
+    stroke-width:7;
+    stroke:#fff;
+}
+
+#areaGradient .ct-series-b .ct-point-circle {
+    fill: transparent;
+}
+
+ .areaGradientShadow{
+        -webkit-filter: drop-shadow( 0px -8px 4px rgba(115,150,255,0.2) );
+                filter: drop-shadow( 0px -8px 4px rgba(115,150,255,0.2) ); /* Same syntax as box-shadow, except 
+                                                           for the spread property */
+
+}
+
+#areaGradient .ct-series-a .ct-point-circle-transperent {     
+    fill: transparent;
+ }
+ #areaGradient .ct-series-b .ct-point-circle-transperent {     
+    fill: transparent;
+ }
+
+ #areaGradient .ct-series-c .ct-point-circle-transperent {     
+    fill: transparent;
+ }
+
+
+// Line area chart CSS Ends
+
+// Line area chart 1 CSS Starts
+
+#areaGradient1 .ct-series-a .ct-area {
+    fill-opacity: 1;
+    fill:url(#area-gradient) !important;
+}
+
+#areaGradient1 .ct-series-b .ct-area {
+    fill-opacity: 0.3;
+    fill:url(#area-gradient) !important;
+}
+
+#areaGradient1 .ct-series-c .ct-area {
+    fill-opacity: 0.15;
+    fill:url(#area-gradient) !important;
+}
+
+
+#areaGradient1 .ct-line{
+    stroke-width: 0px;
+}
+#areaGradient1 .ct-series-b .ct-point {
+    stroke-width: 0px;
+}
+
+
+#areaGradient1 .ct-series-b{
+    .ct-point-circle {
+        display: none;
+    }
+    .ct-point-circle-transperent  {
+        display: none;
+    }
+} 
+
+
+#areaGradient1 .ct-series-a .ct-point-circle {
+    fill:#7396ff;
+    stroke-width:7;
+    stroke:#fff;
+}
+
+#areaGradient1 .ct-series-c .ct-point-circle {
+    fill:#f8a1ec;
+    stroke-width:7;
+    stroke:#fff;
+}
+
+#areaGradient1 .ct-series-b .ct-point-circle {
+    fill: transparent;
+}
+
+ .areaGradientShadow1{
+        -webkit-filter: drop-shadow( 0px -10px 4px rgba(115,150,255,0.3) );
+                filter: drop-shadow( 0px -10px 4px rgba(115,150,255,0.3) ); /* Same syntax as box-shadow, except 
+                                                           for the spread property */
+
+}
+
+#areaGradient1 .ct-series-a .ct-point-circle-transperent {     
+    fill: transparent;
+ }
+ #areaGradient1 .ct-series-b .ct-point-circle-transperent {     
+    fill: transparent;
+ }
+
+ #areaGradient1 .ct-series-c .ct-point-circle-transperent {     
+    fill: transparent;
+ }
+
+
+// Line area chart 1 CSS Ends
+
+
+// Line Gradient Chart CSS Starts
+  
+#gradient-line-chart .ct-series.ct-series-a .ct-line { stroke: url(#linear6) !important; stroke-width: 4px; }
+#gradient-line-chart .ct-series.ct-series-a .ct-point-circle{fill:url(#linear6) !important;stroke-width:9;stroke:#fff;}
+#gradient-line-chart .ct-series.ct-series-b .ct-line { stroke: url(#linear7) !important; stroke-width: 4px; }    
+
+
+#gradient-line-chart .ct-series-a .ct-point-circle-transperent {     
+   fill: transparent;
+}
+
+#gradient-line-chart .ct-series-b .ct-point-circle-transperent {     
+    fill: transparent;
+ }
+ 
+
+.GradientlineShadow{
+    -webkit-filter: drop-shadow( 0px -8px 4px rgba(0,0,0,0.2) );
+            filter: drop-shadow( 0px -8px 4px rgba(0,0,0,0.2) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+
+}
+
+// Line Gradient Chart CSS Ends
+
+// Line Gradient Chart 1 CSS Starts
+  
+#gradient-line-chart1 .ct-series.ct-series-a .ct-line { stroke: url(#lineLinear1) !important; stroke-width: 8px; }
+#gradient-line-chart1 .ct-series.ct-series-a .ct-point-circle{fill:url(#lineLinear1) !important;stroke-width:9;stroke:#fff;}
+#gradient-line-chart1 .ct-series.ct-series-b .ct-line { stroke: url(#lineLinear1) !important; stroke-width: 4px; }    
+
+
+#gradient-line-chart1 .ct-series-a .ct-point-circle-transperent {     
+   fill: transparent;
+}
+
+#gradient-line-chart1 .ct-series-a .ct-point-circle-transperent:hover {     
+    fill:url(#lineLinear1) !important;stroke-width:9;stroke:#fff;
+ }
+
+
+
+#gradient-line-chart1 .ct-series-b .ct-point-circle-transperent {     
+    fill: transparent;
+ }
+ #gradient-line-chart1 .ct-series-b .ct-point-circle-transperent:hover {     
+    fill:url(#lineLinear1) !important;stroke-width:9;stroke:#fff;
+ }
+
+.GradientlineShadow1{
+    -webkit-filter: drop-shadow( 0px 12px 3px rgba(0,0,0,0.2) );
+            filter: drop-shadow( 0px 12px 3px rgba(0,0,0,0.2) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+
+}
+
+// Line Gradient Chart 1 CSS Ends
+
+
+  // Donut Chart  CSS Ends
+  #donut-gradient-chart .ct-slice-donut-solid {
+    fill: url(#donutGradient1);
+  }  
+
+  #donut-gradient-chart .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 30px;
+    font-weight: 700;
+    fill: rgb(253,99,107)
+  }
+
+  #donut-gradient-chart .ct-chart-donut .ct-series {
+    stroke: #fff;
+    stroke-width: 0px;
+  }
+
+  .donutShadow{
+    -webkit-filter: drop-shadow( 0px 20px 8px rgba(0,0,0,0.3) );
+    filter: drop-shadow( 4px 20px 8px rgba(0,0,0,0.3) ); /* Same syntax as box-shadow, except 
+                                               for the spread property */
+  }
+
+  // Donut Chart  CSS Ends
+
+   // Donut Chart 1 CSS Ends
+   #donut-gradient-chart1 .ct-slice-donut-solid {
+    fill: url(#donutGradient2);
+  }  
+
+  #donut-gradient-chart1 .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 30px;
+    font-weight: 700;
+    fill: rgb(105,103,206)
+  }
+
+  #donut-gradient-chart1 .ct-chart-donut .ct-series {
+    stroke: #fff;
+    stroke-width: 0px;
+  }
+
+  // Donut Chart 1 CSS Ends
+
+// Donut Chart 2 CSS Ends
+#donut-gradient-chart2 .ct-slice-donut-solid {
+    fill: url(#donutGradient3);
+}  
+
+#donut-gradient-chart2 .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 30px;
+    font-weight: 700;
+    fill: rgb(25,175,208);
+}
+
+#donut-gradient-chart2 .ct-chart-donut .ct-series {
+    stroke: #fff;
+    stroke-width: 0px;
+}
+
+// Donut Chart 2 CSS Ends
+
+// Donut Chart 3 CSS Ends
+#donut-gradient-chart3 .ct-slice-donut-solid {
+    fill: url(#donutGradient4);
+}  
+
+// #donut-gradient-chart3 .ct-label {
+//     text-anchor: middle;
+//     alignment-baseline: middle;
+//     font-size: 30px;
+//     font-weight: 700;
+//     fill: #868e96;
+// }
+
+#donut-gradient-chart3 .ct-chart-donut .ct-series {
+    stroke: #fff;
+    stroke-width: 0px;
+}
+
+#donut-gradient-chart3 .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 45px;
+    font-weight: 700;
+    fill: rgb(253,99,107)
+  }
+
+// Donut Chart 3 CSS Ends
+
+// Donut Chart 4 CSS Ends
+#donut-gradient-chart4 .ct-slice-donut-solid {
+    fill: url(#donutGradient5);
+}  
+
+// #donut-gradient-chart4 .ct-label {
+//     text-anchor: middle;
+//     alignment-baseline: middle;
+//     font-size: 30px;
+//     font-weight: 700;
+//     fill: #868e96;
+// }
+
+#donut-gradient-chart4 .ct-chart-donut .ct-series {
+    stroke: #fff;
+    stroke-width: 0px;
+}
+
+#donut-gradient-chart4 .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 45px;
+    font-weight: 700;
+    fill: rgb(105,103,206)
+  }
+
+// Donut Chart 4 CSS Ends
+
+// Donut Chart 5 CSS Ends
+#donut-gradient-chart5 .ct-slice-donut-solid {
+    fill: url(#donutGradient6);
+}  
+
+// #donut-gradient-chart5 .ct-label {
+//     text-anchor: middle;
+//     alignment-baseline: middle;
+//     font-size: 30px;
+//     font-weight: 700;
+//     fill: #868e96;
+// }
+
+#donut-gradient-chart5 .ct-chart-donut .ct-series {
+    stroke: #fff;
+    stroke-width: 0px;
+}
+
+#donut-gradient-chart5 .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 45px;
+    font-weight: 700;
+    fill: rgb(25,175,208)
+  }
+
+// Donut Chart 3 CSS Ends
+
+
+  // Bar Chart CSS Starts
+
+  #vertical-bar .ct-series-a {
+      .ct-bar {
+           stroke: url(#barGradient2);
+      }
+      .ct-slice-pie {
+        fill: #fd636b;
+    }
+  }
+  
+
+  .BarChartShadow {
+    -webkit-filter: drop-shadow(-4px 9px 4px rgba(0, 0, 0, .3));
+            filter: drop-shadow(-4px 9px 4px rgba(0, 0, 0, .3)); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+
+  // Bar Chart 1 CSS Starts
+
+    // Bar Chart 2 CSS Starts
+
+    #vertical-bar1 .ct-series-a {
+        .ct-bar:nth-of-type(4n+1) {
+              stroke: #fd636b;
+        }
+        .ct-slice-pie:nth-of-type(4n+1) {
+          fill: #fd636b;
+      }
+    }
+
+    #vertical-bar1 .ct-series-a {
+        .ct-bar:nth-of-type(4n+2) {
+              stroke: #6967ce;
+        }
+        .ct-slice-pie:nth-of-type(4n+2) {
+          fill: #6967ce;
+      }
+    }
+
+    #vertical-bar1 .ct-series-a {
+        .ct-bar:nth-of-type(4n+3) {
+              stroke: #fd636b;
+        }
+        .ct-slice-pie:nth-of-type(4n+3) {
+          fill: #fd636b;
+      }
+    }
+
+    #vertical-bar1 .ct-series-a {
+        .ct-bar:nth-of-type(4n+4) {
+              stroke: #6967ce;
+        }
+        .ct-slice-pie:nth-of-type(4n+4) {
+          fill: #6967ce;
+      }
+    }
+  
+    // Bar Chart 2 CSS Starts
+
+    
+  // Bar Chart 3 CSS Starts
+
+  #vertical-bar2 .ct-series-a {
+    .ct-bar {
+          stroke: url(#barGradient1);
+    }
+    .ct-slice-pie {
+      fill: #fd636b;
+  }
+}
+
+
+// Bar Chart 3 CSS Starts
+
+
+  // Bar Chart 4 CSS Starts
+
+  #vertical-bar3 .ct-series-a {
+    .ct-bar {
+          stroke: url(#barGradient3);
+    }
+    .ct-slice-pie {
+      fill: rgba(132, 60, 247,1);
+  }
+}
+
+
+// Bar Chart 4 CSS Starts
+
+// Stack Bar Chart CSS Starts
+
+#stacked-bar1{
+    .ct-series-a {
+        .ct-bar{
+            stroke: url(#stackedBarGradient) !important
+        }
+    }
+    .ct-series-b {
+        .ct-bar{
+            stroke: #ecf0f1;
+        }
+    }
+}
+
+.StackChartShadow{
+    -webkit-filter: drop-shadow(0px 6px 0px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0px 6px 0px rgba(0, 0, 0, 0.2)); /* Same syntax as box-shadow, except 
+                                               for the spread property */
+}
+
+// Stack Bar Chart CSS Ends

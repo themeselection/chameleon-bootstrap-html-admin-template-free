@@ -1,0 +1,36 @@
+// ================================================================================================
+//     File Name: Footer.scss
+//     Description: *  Main footer styles.
+//     ----------------------------------------------------------------------------------------------
+//     Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
+//     Version: 1.0
+//     Author: ThemeSelection
+//     Author URL: https://themeselection.com/
+// ================================================================================================
+
+// Stick footer to the bottom of the page
+footer{
+	&.footer {
+		padding: 0.8rem;
+	}
+
+	//shadow & border options
+	&.navbar-shadow {
+		box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.1);
+	}
+	&.navbar-border {
+		border-top: 1px solid #E4E7ED;
+	}
+
+	// Footer color options
+	&.footer-transparent{
+		border: none;
+	}
+	&.footer-light{
+		background: $footer-color-light-bg;
+	}
+	&.footer-dark{
+		background: $footer-color-dark-bg;
+		color: #fff;
+	}
+}

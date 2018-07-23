@@ -1,0 +1,128 @@
+// ================================================================================================
+//   File Name: pallette-gradient.scss
+//   Description: gradient color system styles
+//   ----------------------------------------------------------------------------------------------
+//   Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
+//   Version: 1.0
+//   Author: ThemeSelection
+//   Author URL: https://themeselection.com/
+// ================================================================================================
+@function color-function($color, $type) {
+    @if map-has-key($colors, $color) {
+        $curr_color: map-get($colors, $color);
+        @if map-has-key($curr_color, $type) {
+            @return map-get($curr_color, $type);
+        }
+    } // @warn "Unknown `#{name}` in $colors.";
+    @return null;
+}
+
+// Color palettes
+@import "palette-variables";
+// Overrides user variable
+@import "../../../../assets/scss/colors/palette-variables";
+
+@import "../../bootstrap/mixins/_gradients";
+@import "../../bootstrap/mixins/gradients";
+
+@each $color_name,
+$color in $colors {
+    @each $color_type,
+    $color_value in $color {
+        @if $color_type=="base" {
+            .bg-gradient-x-#{$color_name} {
+                @if (color-function($color_name, "darken-2") !=null) {
+                    @include gradient-x(map-get(($color), 'darken-2'), map-get(($color), 'lighten-2'));
+                }
+            }
+            .bg-gradient-y-#{$color_name} {
+                @if (color-function($color_name, "darken-2") !=null) {
+                    @include gradient-y(map-get(($color), 'darken-2'), map-get(($color), 'lighten-2'));
+                }
+            }
+            .bg-gradient-directional-#{$color_name} {
+                @if (color-function($color_name, "darken-2") !=null) {
+                    @include gradient-directional(map-get(($color), 'darken-2'), map-get(($color), 'lighten-2'));
+                }
+            }
+            .bg-gradient-x2-#{$color_name} {
+                @if (color-function($color_name, "darken-2") !=null) {
+                    @include gradient-x-three-colors(map-get(($color), 'lighten-2'), $color_value, 50%, map-get(($color), 'lighten-3'));
+                }
+            }
+            .bg-gradient-y2-#{$color_name} {
+                @if (color-function($color_name, "darken-2") !=null) {
+                    @include gradient-y-three-colors(map-get(($color), 'lighten-2'), $color_value, 50%, map-get(($color), 'lighten-3'));
+                }
+            }
+            .bg-gradient-radial-#{$color_name} {
+                @if (color-function($color_name, "darken-2") !=null) {
+                    @include gradient-radial(map-get(($color), 'darken-2'), map-get(($color), 'lighten-2'));
+                }
+            }
+            .bg-gradient-striped-#{$color_name} {
+                @if (color-function($color_name, "lighten-3") !=null) {
+                    @include gradient-striped(map-get(($color), 'lighten-3'));
+                }
+            }
+            .bg-gradient-x-#{$color_name},
+            .bg-gradient-y-#{$color_name},
+            .bg-gradient-directional-#{$color_name},
+            .bg-gradient-radial-#{$color_name},
+            .bg-gradient-striped-#{$color_name},
+            .bg-gradient-x2-#{$color_name},
+            .bg-gradient-y2-#{$color_name} {
+                .card-header,
+                .card-footer {
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+
+
+/*
+  Gradient color mixin
+*/
+
+@each $gcolor_name,
+$gcolor in $gradient-colors {
+    $start-color: map-get($gcolor, start-color);
+    $end-color: map-get($gcolor, end-color);
+    $direction: map-get($gcolor, direction);
+    .#{$gcolor_name} {
+        @include gradient-directional($start-color, $end-color, $direction);
+    }
+    .btn-#{$gcolor_name} {
+        border: none;
+        color: #fff;
+        background-image: linear-gradient(90deg, $start-color 0%, $end-color 50%, $start-color 100%);
+        background-size: 200% auto;
+        transition: 0.5s;
+        &.btn-glow {
+            box-shadow: 0 0 12px 0 $start-color;
+        }
+        &.active,
+        &:active,
+        &:hover {
+            background-position: right center;
+            background-image: linear-gradient(90deg, $start-color 0%, $end-color 50%, $start-color 100%) !important;
+        }
+    } // Template body color data attribute to customize the nave and content before color
+    body.vertical-layout[data-color=#{$gcolor_name}] .navbar-container,
+    body.vertical-layout[data-color=#{$gcolor_name}] .content-wrapper-before {
+        @include gradient-directional($start-color, $end-color, $direction);
+    } // Template body color data attribute to customize horizontal layout nave and content before both color
+    body.horizontal-layout[data-color=#{$gcolor_name}] .navbar-horizontal,
+    body.horizontal-layout[data-color=#{$gcolor_name}] .content-wrapper-before {
+        @include gradient-directional($start-color, $end-color, $direction);
+    }
+}
+
+@media (max-width: 767.98px) {
+    body.horizontal-layout .main-menu-content {
+        background: #fff !important;
+    }
+}

@@ -1,0 +1,359 @@
+//	================================================================================================
+//	File Name: palette.scss
+//	Description: Custom theme specific variables and other content variations
+//	----------------------------------------------------------------------------------------------
+//	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+//	Version: 1.0
+//	Author: PIXINVENT
+//	Author URL: http://www.themeforest.net/user/pixinvent
+//	================================================================================================
+
+//  ================================================================================================
+//  Use this file to override color pallete variables
+//  You can use any color pallete variable from app-assets/scss/core/colors/palette-variables.scss
+//  ================================================================================================
+
+
+
+// Google Color Palette defined: http://www.google.com/design/spec/style/color.html
+
+
+$white: (
+  "base": #FFFFFF,
+);
+$black: (
+  "base": #000000,
+);
+$chartbg: (
+  "base": #262d47,
+);
+$primary: (
+  "lighten-5":  #ededf9,
+  "lighten-4":  #d2d1f0,
+  "lighten-3":  #b4b3e7,
+  "lighten-2":  #9695dd,
+  "lighten-1":  #807ed5,
+  "base":       #6967CE,
+  "darken-1":   #615fc9,
+  "darken-2":   #5654c2,
+  "darken-3":   #4c4abc,
+  "darken-4":   #3b39b0,
+  "accent-1":   #e2e2ff,
+  "accent-2":   #cac9ff,
+  "accent-3":   #9896ff,
+  "accent-4":   #7f7dff
+);
+$success: (
+  "lighten-5":  #effbed,
+  "lighten-4":  #d6f5d2,
+  "lighten-3":  #bbeeb5,
+  "lighten-2":  #9fe797,
+  "lighten-1":  #8be280,
+  "base":       #5ed84f,
+  "darken-1":   #6ed962,
+  "darken-2":   #63d457,
+  "darken-3":   #59cf4d,
+  "darken-4":   #46c73c,
+  "accent-1":   #eeffee,
+  "accent-2":   #e3ffe1,
+  "accent-3":   #b4ffae,
+  "accent-4":   #9cff95
+);
+$info: (
+  "lighten-5":  #e5f5f9,
+  "lighten-4":  #bfe7f1,
+  "lighten-3":  #94d7e8,
+  "lighten-2":  #69c7de,
+  "lighten-1":  #48bbd7,
+  "base":       #28afd0,
+  "darken-1":   #24a8cb,
+  "darken-2":   #1e9fc4,
+  "darken-3":   #1896be,
+  "darken-4":   #0f86b3,
+  "accent-1":   #e1f6ff,
+  "accent-2":   #aee7ff,
+  "accent-3":   #7bd7ff,
+  "accent-4":   #62d0ff
+);
+$warning: (
+  "lighten-5":  #fff7e1,
+  "lighten-4":  #feeab3,
+  "lighten-3":  #fedc80,
+  "lighten-2":  #fece4d,
+  "lighten-1":  #fdc427,
+  "base":       #fdb901,
+  "darken-1":   #fdb201,
+  "darken-2":   #fcaa01,
+  "darken-3":   #fca201,
+  "darken-4":   #fc9300,
+  "accent-1":   #fffbf6,
+  "accent-2":   #fff7ef,
+  "accent-3":   #ffe0bc,
+  "accent-4":   #ffd4a2
+);
+$danger: (
+  "lighten-5":  #feeced,
+  "lighten-4":  #fed0d3,
+  "lighten-3":  #fdb1b5,
+  "lighten-2":  #fc9197,
+  "lighten-1":  #fb7a81,
+  "base":       #fa626b,
+  "darken-1":   #f95a63,
+  "darken-2":   #f95058,
+  "darken-3":   #f8464e,
+  "darken-4":   #f6343c,
+  "accent-1":   #fff1f1,
+  "accent-2":   #ffe5e6,
+  "accent-3":   #ffd6d8,
+  "accent-4":   #ffbdbf
+);
+
+$red: (
+  "lighten-5":  #FFEBEE,
+  "lighten-4":  #FFCDD2,
+  "lighten-3":  #EF9A9A,
+  "lighten-2":  #E57373,
+  "lighten-1":  #EF5350,
+  "base":       #F44336,
+  "darken-1":   #E53935,
+  "darken-2":   #D32F2F,
+  "darken-3":   #C62828,
+  "darken-4":   #B71C1C,
+  "accent-1":   #FF8A80,
+  "accent-2":   #FF5252,
+  "accent-3":   #FF1744,
+  "accent-4":   #D50000
+);
+
+$pink: (
+  "lighten-5":  #FCE4EC,
+  "lighten-4":  #F8BBD0,
+  "lighten-3":  #F48FB1,
+  "lighten-2":  #F06292,
+  "lighten-1":  #EC407A,
+  "base":       #E91E63,
+  "darken-1":   #D81B60,
+  "darken-2":   #C2185B,
+  "darken-3":   #AD1457,
+  "darken-4":   #880E4F,
+  "accent-1":   #FF80AB,
+  "accent-2":   #FF4081,
+  "accent-3":   #F50057,
+  "accent-4":   #C51162
+);
+
+$purple: (
+  "lighten-5":  #F3E5F5,
+  "lighten-4":  #E1BEE7,
+  "lighten-3":  #CE93D8,
+  "lighten-2":  #BA68C8,
+  "lighten-1":  #AB47BC,
+  "base":       #9C27B0,
+  "darken-1":   #8E24AA,
+  "darken-2":   #7B1FA2,
+  "darken-3":   #6A1B9A,
+  "darken-4":   #4A148C,
+  "accent-1":   #EA80FC,
+  "accent-2":   #E040FB,
+  "accent-3":   #D500F9,
+  "accent-4":   #DD00FF
+);
+
+$blue: (
+  "lighten-5":  #E3F2FD,
+  "lighten-4":  #BBDEFB,
+  "lighten-3":  #90CAF9,
+  "lighten-2":  #64B5F6,
+  "lighten-1":  #42A5F5,
+  "base":       #2196F3,
+  "darken-1":   #1E88E5,
+  "darken-2":   #1976D2,
+  "darken-3":   #1565C0,
+  "darken-4":   #0D47A1,
+  "accent-1":   #82B1FF,
+  "accent-2":   #448AFF,
+  "accent-3":   #2979FF,
+  "accent-4":   #2962FF
+);
+
+$cyan: (
+  "lighten-5":  #E0F7FA,
+  "lighten-4":  #B2EBF2,
+  "lighten-3":  #80DEEA,
+  "lighten-2":  #4DD0E1,
+  "lighten-1":  #26C6DA,
+  "base":       #00BCD4,
+  "darken-1":   #00ACC1,
+  "darken-2":   #0097A7,
+  "darken-3":   #00838F,
+  "darken-4":   #006064,
+  "accent-1":   #84FFFF,
+  "accent-2":   #18FFFF,
+  "accent-3":   #00E5FF,
+  "accent-4":   #00B8D4
+);
+
+$teal: (
+  "lighten-5":  #E0F2F1,
+  "lighten-4":  #B2DFDB,
+  "lighten-3":  #80CBC4,
+  "lighten-2":  #4DB6AC,
+  "lighten-1":  #26A69A,
+  "base":       #009688,
+  "darken-1":   #00897B,
+  "darken-2":   #00796B,
+  "darken-3":   #00695C,
+  "darken-4":   #004D40,
+  "accent-1":   #A7FFEB,
+  "accent-2":   #64FFDA,
+  "accent-3":   #1DE9B6,
+  "accent-4":   #00BFA5
+);
+
+$yellow: (
+  "lighten-5":  #FFFDE7,
+  "lighten-4":  #FFF9C4,
+  "lighten-3":  #FFF59D,
+  "lighten-2":  #FFF176,
+  "lighten-1":  #FFEE58,
+  "base":       #FFEB3B,
+  "darken-1":   #FDD835,
+  "darken-2":   #FBC02D,
+  "darken-3":   #F9A825,
+  "darken-4":   #F57F17,
+  "accent-1":   #FFFF8D,
+  "accent-2":   #FFFF00,
+  "accent-3":   #FFEA00,
+  "accent-4":   #FFD600
+);
+
+$amber: (
+  "lighten-5":  #FFF8E1,
+  "lighten-4":  #FFECB3,
+  "lighten-3":  #FFE082,
+  "lighten-2":  #FFD54F,
+  "lighten-1":  #FFCA28,
+  "base":       #FFC107,
+  "darken-1":   #FFB300,
+  "darken-2":   #FFA000,
+  "darken-3":   #FF8F00,
+  "darken-4":   #FF6F00,
+  "accent-1":   #FFE57F,
+  "accent-2":   #FFD740,
+  "accent-3":   #FFC400,
+  "accent-4":   #FFAB00
+);
+
+$blue-grey: (
+  "lighten-5":  #ECEFF1,
+  "lighten-4":  #CFD8DC,
+  "lighten-3":  #B0BEC5,
+  "lighten-2":  #90A4AE,
+  "lighten-1":  #78909C,
+  "base":       #607D8B,
+  "darken-1":   #546E7A,
+  "darken-2":   #455A64,
+  "darken-3":   #37474F,
+  "darken-4":   #263238
+);
+
+$grey-blue: (
+  "lighten-5":  #ECEFF1,
+  "lighten-4":  #CFD8DC,
+  "lighten-3":  #B0BEC5,
+  "lighten-2":  #6F85AD,
+  "lighten-1":  #78909C,
+  "base":       #1B2942,
+  "darken-1":   #546E7A,
+  "darken-2":   #2C303B,
+  "darken-3":   #37474F,
+  "darken-4":   #263238
+);
+
+$shades: (
+  "black":        #000000,
+  "white":        #FFFFFF,
+  "transparent":  transparent
+);
+
+$colors: (
+  "white": $white,
+  "black": $black,
+  "chartbg": $chartbg,
+  "primary": $primary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "red": $red,
+  "pink": $pink,
+  "purple": $purple,
+  "blue": $blue,
+  "cyan": $cyan,
+  "teal": $teal,
+  "yellow": $yellow,
+  "amber": $amber,
+  "blue-grey": $blue-grey,
+  "grey-blue": $grey-blue,
+  "shades": $shades
+);
+
+
+//Gradient color variables
+$gradient-colors: (
+  bg-gradient-x-purple-blue: (
+    'start-color' : #9f78ff,
+      'end-color' : #32cafe,
+      'direction' : to right,
+  ),
+  bg-gradient-x-purple-red: (
+    'start-color' : #a376fc,
+      'end-color' : #f96f9b,
+      'direction' : to right,
+  ),
+  bg-gradient-x-blue-green: (
+    'start-color' : #00cef9,
+      'end-color' : #00e6af,
+      'direction' : to right,
+  ),
+  bg-gradient-x-orange-yellow: (
+    'start-color' : #FF8008,
+      'end-color' : #FFC837,
+      'direction' : to right,
+  ),
+  bg-gradient-x-blue-cyan: (
+    'start-color' : #514A9D,
+      'end-color' : #24C6DC,
+      'direction' : to right,
+  ),
+  bg-gradient-x-red-pink: (
+    'start-color' : #ff5858,
+      'end-color' : #e888b7,
+      'direction' : to right,
+  ),
+  bg-gradient-x-blue-purple-1: (
+    'start-color' : #7396ff,
+      'end-color' : #f8a1ec,
+      'direction' : to right,
+  ),
+  bg-gradient-x-blue-purple-2: (
+    'start-color' : #85a6f3,
+      'end-color' : #d7b9f1,
+      'direction' : to right,
+  ),
+  bg-gradient-x-blue-purple-3: (
+    'start-color' : #bccdff,
+      'end-color' : #ecd2f8,
+      'direction' : to right,
+  ),
+);
+
+
+//Color Palette Pages Border Variables
+
+$border-left-radius-palette: 5px;
+$border-top-radius-palette: 0px;
+
+// Border width
+
+$border-top-5: 5px;

@@ -1,0 +1,1 @@
+$(window).on("load",function(){var a=$("#simple-pie-chart");new Chart(a,{type:"pie",options:{responsive:!0,maintainAspectRatio:!1,responsiveAnimationDuration:500},data:{labels:["January","February","March","April","May"],datasets:[{label:"My First dataset",data:[85,65,34,45,35],backgroundColor:["#666EE8","#28D094","#FF4961","#1E9FF2","#FF9149"]}]}})});

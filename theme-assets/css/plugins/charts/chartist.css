@@ -1,0 +1,477 @@
+#areaGradient .ct-series-a .ct-area
+{
+    fill-opacity: 1;
+    fill: #7396ff !important;
+}
+
+#areaGradient .ct-series-b .ct-area
+{
+    fill-opacity: .3;
+    fill: #7396ff !important;
+}
+
+#areaGradient .ct-series-c .ct-area
+{
+    fill-opacity: .15;
+    fill: #7396ff !important;
+}
+
+#areaGradient .ct-line
+{
+    stroke-width: 0;
+}
+
+#areaGradient .ct-series-b .ct-point
+{
+    stroke-width: 0;
+}
+
+#areaGradient .ct-series-b .ct-point-circle
+{
+    display: none;
+}
+
+#areaGradient .ct-series-b .ct-point-circle-transperent
+{
+    display: none;
+}
+
+#areaGradient .ct-series-a .ct-point-circle
+{
+    fill: #7396ff;
+    stroke-width: 7;
+    stroke: #fff;
+}
+
+#areaGradient .ct-series-c .ct-point-circle
+{
+    fill: #7396ff;
+    stroke-width: 7;
+    stroke: #fff;
+}
+
+#areaGradient .ct-series-b .ct-point-circle
+{
+    fill: transparent;
+}
+
+.areaGradientShadow
+{
+    -webkit-filter: drop-shadow(0px -8px 4px rgba(115, 150, 255, .2));
+            filter: drop-shadow(0px -8px 4px rgba(115, 150, 255, .2));
+    /* Same syntax as box-shadow, except 
+                                                           for the spread property */
+}
+
+#areaGradient .ct-series-a .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+#areaGradient .ct-series-b .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+#areaGradient .ct-series-c .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+#areaGradient1 .ct-series-a .ct-area
+{
+    fill-opacity: 1;
+    fill: url(#area-gradient) !important;
+}
+
+#areaGradient1 .ct-series-b .ct-area
+{
+    fill-opacity: .3;
+    fill: url(#area-gradient) !important;
+}
+
+#areaGradient1 .ct-series-c .ct-area
+{
+    fill-opacity: .15;
+    fill: url(#area-gradient) !important;
+}
+
+#areaGradient1 .ct-line
+{
+    stroke-width: 0;
+}
+
+#areaGradient1 .ct-series-b .ct-point
+{
+    stroke-width: 0;
+}
+
+#areaGradient1 .ct-series-b .ct-point-circle
+{
+    display: none;
+}
+
+#areaGradient1 .ct-series-b .ct-point-circle-transperent
+{
+    display: none;
+}
+
+#areaGradient1 .ct-series-a .ct-point-circle
+{
+    fill: #7396ff;
+    stroke-width: 7;
+    stroke: #fff;
+}
+
+#areaGradient1 .ct-series-c .ct-point-circle
+{
+    fill: #f8a1ec;
+    stroke-width: 7;
+    stroke: #fff;
+}
+
+#areaGradient1 .ct-series-b .ct-point-circle
+{
+    fill: transparent;
+}
+
+.areaGradientShadow1
+{
+    -webkit-filter: drop-shadow(0px -10px 4px rgba(115, 150, 255, .3));
+            filter: drop-shadow(0px -10px 4px rgba(115, 150, 255, .3));
+    /* Same syntax as box-shadow, except 
+                                                           for the spread property */
+}
+
+#areaGradient1 .ct-series-a .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+#areaGradient1 .ct-series-b .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+#areaGradient1 .ct-series-c .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+#gradient-line-chart .ct-series.ct-series-a .ct-line
+{
+    stroke: url(#linear6) !important;
+    stroke-width: 4px;
+}
+
+#gradient-line-chart .ct-series.ct-series-a .ct-point-circle
+{
+    fill: url(#linear6) !important;
+    stroke-width: 9;
+    stroke: #fff;
+}
+
+#gradient-line-chart .ct-series.ct-series-b .ct-line
+{
+    stroke: url(#linear7) !important;
+    stroke-width: 4px;
+}
+
+#gradient-line-chart .ct-series-a .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+#gradient-line-chart .ct-series-b .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+.GradientlineShadow
+{
+    -webkit-filter: drop-shadow(0px -8px 4px rgba(0, 0, 0, .2));
+            filter: drop-shadow(0px -8px 4px rgba(0, 0, 0, .2));
+    /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+
+#gradient-line-chart1 .ct-series.ct-series-a .ct-line
+{
+    stroke: url(#lineLinear1) !important;
+    stroke-width: 8px;
+}
+
+#gradient-line-chart1 .ct-series.ct-series-a .ct-point-circle
+{
+    fill: url(#lineLinear1) !important;
+    stroke-width: 9;
+    stroke: #fff;
+}
+
+#gradient-line-chart1 .ct-series.ct-series-b .ct-line
+{
+    stroke: url(#lineLinear1) !important;
+    stroke-width: 4px;
+}
+
+#gradient-line-chart1 .ct-series-a .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+#gradient-line-chart1 .ct-series-a .ct-point-circle-transperent:hover
+{
+    fill: url(#lineLinear1) !important;
+    stroke-width: 9;
+    stroke: #fff;
+}
+
+#gradient-line-chart1 .ct-series-b .ct-point-circle-transperent
+{
+    fill: transparent;
+}
+
+#gradient-line-chart1 .ct-series-b .ct-point-circle-transperent:hover
+{
+    fill: url(#lineLinear1) !important;
+    stroke-width: 9;
+    stroke: #fff;
+}
+
+.GradientlineShadow1
+{
+    -webkit-filter: drop-shadow(0px 12px 3px rgba(0, 0, 0, .2));
+            filter: drop-shadow(0px 12px 3px rgba(0, 0, 0, .2));
+    /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+
+#donut-gradient-chart .ct-slice-donut-solid
+{
+    fill: url(#donutGradient1);
+}
+
+#donut-gradient-chart .ct-label
+{
+    font-size: 30px;
+    font-weight: 700;
+
+    text-anchor: middle;
+    alignment-baseline: middle;
+    fill: #fd636b;
+}
+
+#donut-gradient-chart .ct-chart-donut .ct-series
+{
+    stroke: #fff;
+    stroke-width: 0;
+}
+
+.donutShadow
+{
+    -webkit-filter: drop-shadow(0px 20px 8px rgba(0, 0, 0, .3));
+            filter: drop-shadow(4px 20px 8px rgba(0, 0, 0, .3));
+    /* Same syntax as box-shadow, except 
+                                               for the spread property */
+}
+
+#donut-gradient-chart1 .ct-slice-donut-solid
+{
+    fill: url(#donutGradient2);
+}
+
+#donut-gradient-chart1 .ct-label
+{
+    font-size: 30px;
+    font-weight: 700;
+
+    text-anchor: middle;
+    alignment-baseline: middle;
+    fill: #6967ce;
+}
+
+#donut-gradient-chart1 .ct-chart-donut .ct-series
+{
+    stroke: #fff;
+    stroke-width: 0;
+}
+
+#donut-gradient-chart2 .ct-slice-donut-solid
+{
+    fill: url(#donutGradient3);
+}
+
+#donut-gradient-chart2 .ct-label
+{
+    font-size: 30px;
+    font-weight: 700;
+
+    text-anchor: middle;
+    alignment-baseline: middle;
+    fill: #19afd0;
+}
+
+#donut-gradient-chart2 .ct-chart-donut .ct-series
+{
+    stroke: #fff;
+    stroke-width: 0;
+}
+
+#donut-gradient-chart3 .ct-slice-donut-solid
+{
+    fill: url(#donutGradient4);
+}
+
+#donut-gradient-chart3 .ct-chart-donut .ct-series
+{
+    stroke: #fff;
+    stroke-width: 0;
+}
+
+#donut-gradient-chart3 .ct-label
+{
+    font-size: 45px;
+    font-weight: 700;
+
+    text-anchor: middle;
+    alignment-baseline: middle;
+    fill: #fd636b;
+}
+
+#donut-gradient-chart4 .ct-slice-donut-solid
+{
+    fill: url(#donutGradient5);
+}
+
+#donut-gradient-chart4 .ct-chart-donut .ct-series
+{
+    stroke: #fff;
+    stroke-width: 0;
+}
+
+#donut-gradient-chart4 .ct-label
+{
+    font-size: 45px;
+    font-weight: 700;
+
+    text-anchor: middle;
+    alignment-baseline: middle;
+    fill: #6967ce;
+}
+
+#donut-gradient-chart5 .ct-slice-donut-solid
+{
+    fill: url(#donutGradient6);
+}
+
+#donut-gradient-chart5 .ct-chart-donut .ct-series
+{
+    stroke: #fff;
+    stroke-width: 0;
+}
+
+#donut-gradient-chart5 .ct-label
+{
+    font-size: 45px;
+    font-weight: 700;
+
+    text-anchor: middle;
+    alignment-baseline: middle;
+    fill: #19afd0;
+}
+
+#vertical-bar .ct-series-a .ct-bar
+{
+    stroke: url(#barGradient2);
+}
+
+#vertical-bar .ct-series-a .ct-slice-pie
+{
+    fill: #fd636b;
+}
+
+.BarChartShadow
+{
+    -webkit-filter: drop-shadow(-4px 9px 4px rgba(0, 0, 0, .3));
+            filter: drop-shadow(-4px 9px 4px rgba(0, 0, 0, .3));
+    /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+
+#vertical-bar1 .ct-series-a .ct-bar:nth-of-type(4n+1)
+{
+    stroke: #fd636b;
+}
+
+#vertical-bar1 .ct-series-a .ct-slice-pie:nth-of-type(4n+1)
+{
+    fill: #fd636b;
+}
+
+#vertical-bar1 .ct-series-a .ct-bar:nth-of-type(4n+2)
+{
+    stroke: #6967ce;
+}
+
+#vertical-bar1 .ct-series-a .ct-slice-pie:nth-of-type(4n+2)
+{
+    fill: #6967ce;
+}
+
+#vertical-bar1 .ct-series-a .ct-bar:nth-of-type(4n+3)
+{
+    stroke: #fd636b;
+}
+
+#vertical-bar1 .ct-series-a .ct-slice-pie:nth-of-type(4n+3)
+{
+    fill: #fd636b;
+}
+
+#vertical-bar1 .ct-series-a .ct-bar:nth-of-type(4n+4)
+{
+    stroke: #6967ce;
+}
+
+#vertical-bar1 .ct-series-a .ct-slice-pie:nth-of-type(4n+4)
+{
+    fill: #6967ce;
+}
+
+#vertical-bar2 .ct-series-a .ct-bar
+{
+    stroke: url(#barGradient1);
+}
+
+#vertical-bar2 .ct-series-a .ct-slice-pie
+{
+    fill: #fd636b;
+}
+
+#vertical-bar3 .ct-series-a .ct-bar
+{
+    stroke: url(#barGradient3);
+}
+
+#vertical-bar3 .ct-series-a .ct-slice-pie
+{
+    fill: #843cf7;
+}
+
+#stacked-bar1 .ct-series-a .ct-bar
+{
+    stroke: url(#stackedBarGradient) !important;
+}
+
+#stacked-bar1 .ct-series-b .ct-bar
+{
+    stroke: #ecf0f1;
+}
+
+.StackChartShadow
+{
+    -webkit-filter: drop-shadow(0px 6px 0px rgba(0, 0, 0, .2));
+            filter: drop-shadow(0px 6px 0px rgba(0, 0, 0, .2));
+    /* Same syntax as box-shadow, except 
+                                               for the spread property */
+}

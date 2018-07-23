@@ -1,0 +1,153 @@
+.base-timeline {
+    padding-left: 20px;
+    border-left: 1px solid #e5e8eb;
+}
+.base-timeline li {
+    position: relative;
+    margin-bottom: 30px;
+}
+.base-timeline-sub li {
+    position: relative;
+    margin-bottom: 0;
+}
+.base-timeline li:before {
+    position: absolute;
+    top: 4px;
+    left: -1.6rem;
+    content: "\f1db";
+    color: #c6c5c7;
+    background: #fff;
+    font-family: fontawesome;
+    font-size: 12px;
+    font-weight: 700;
+}
+.base-timeline li:last-child {
+    margin-bottom: 0;
+}
+.base-timeline .time-dot-primary:before {
+    color: #328dff;
+}
+.base-timeline .time-dot-success:before {
+    color: #3dba6f;
+}
+.base-timeline .time-dot-danger:before {
+    color: #fe413b;
+}
+.base-timeline .time-dot-warning:before {
+    color: #fab63f;
+}
+.base-timeline .time-dot-info:before {
+    color: #18b9d4;
+}
+.base-timeline .time-dot-dark:before {
+    color: #2f3c4b;
+}
+.base-timeline .time-dot-purple:before {
+    color: #7a86ff;
+}
+.base-timeline .time-dot-purple-light:before {
+    color: #b756ff;
+}
+.base-timeline .time-dot-turquoise:before {
+    color: #31c3b2;
+}
+.base-timeline .time-dot-pink:before {
+    color: #ec0080;
+}
+.todo-list-item {
+    padding-left: 0;
+}
+.todo-list-item li {
+    position: relative;
+    margin-bottom: 5px;
+    padding: 13px;
+    list-style: none;
+    cursor: move;
+    border: 1px solid #e5e8eb;
+    border-radius: 4px;
+    background: #fff;
+}
+.todo-list-item li p {
+    margin-bottom: 0;
+}
+.todo-list-item li:before {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    display: inline-block;
+    height: 103%;
+    content: ""}
+.todo-list-item .todo-done {
+    background: #f9f9f9;
+}
+.todo-list-item .todo-done .todo-title {
+    text-decoration: line-through;
+    color: #b1b5b7;
+}
+.todo-list-item .chk-todo {
+    position: relative;
+    top: -2px;
+    margin-right: 10px;
+}
+.btn-todo-list {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: #bfbfbf;
+    font-size: 12px;
+    line-height: 24px;
+}
+.btn-todo-list i {
+    position: relative;
+    left: -1px;
+}
+.btn-todo-list:hover, .datepicker table tbody tr>td.day.today, .datetimepicker table tbody tr>td.day.today {
+    color: #fff;
+    background: #328dff;
+}
+.sorting-placeholder {
+    visibility: visible!important;
+    min-height: 50px;
+    border: 1px dashed #ddd!important;
+}
+.base-timeline-info{
+    line-height: 1;
+}
+.activity-timeline {
+    margin-left: 100px;
+    padding-left: 34px;
+    border-left: 2px solid #e5e8eb;
+}
+.activity-timeline .act-time {
+    position: absolute;
+    top: 5px;
+    left: -140px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+.activity-timeline li:before {
+    content: ""}
+.activity-timeline li .timeline-icon {
+    position: absolute;
+    top: 0;
+    left: -3.5rem;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: #c6c5c7;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 39px;
+}
+.activity-timeline li .timeline-icon img {
+    position: relative;
+    top: -1px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%}

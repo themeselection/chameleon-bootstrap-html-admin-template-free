@@ -1,0 +1,23 @@
+// ================================================================================================
+// 	File Name: colors.scss
+// 	Description: Common color file to include color paletter and colors file, its qiore good to 
+// 	have all color classes in a separate file as it's quite heavy.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
+// 	Version: 1.0
+// 	Author: ThemeSelection
+// 	Author URL: https://themeselection.com/
+// ================================================================================================
+
+// Core
+// ------------------------------
+
+// Import variables and mixins
+@import "bootstrap/mixins/gradients";
+@import "core/mixins/hex2rgb";
+
+// Color system, always load last
+// ------------------------------
+
+@import "core/colors/palette";
+

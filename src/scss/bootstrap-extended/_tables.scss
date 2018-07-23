@@ -1,0 +1,149 @@
+// ================================================================================================
+//     File Name: tables.scss
+//     Description: Tables pages custom scss
+//     ----------------------------------------------------------------------------------------------
+//     Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
+//     Version: 1.0
+//     Author: ThemeSelection
+//     Author URL: https://themeselection.com/
+// ================================================================================================
+
+.table-white-space {
+  th, td {
+    white-space: nowrap;
+  }
+}
+
+.table-borderless {
+  td, th {
+    border: none;
+  }
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid $table_border_color;
+  border-top: 1px solid $table_border_color;
+}
+
+.table-bordered {
+  th, td {
+    border: 1px solid $table_border_color;
+  }
+}
+
+.table {
+  th, td {
+    border-bottom: 1px solid $table_border_color;
+  }
+
+  &.table-padded{
+    border-collapse: separate;
+    border-spacing: 0 7px;   
+    overflow: visible;
+    tbody > tr{
+      background-color:#fff;            
+    }
+    td{
+      border-top :0;
+
+    }
+    thead th{      
+      text-transform:uppercase;      
+      font-size:0.85rem;
+    }
+
+  }
+}
+
+.table-bordered {
+  border: 1px solid $table_border_color;
+}
+
+.table-inverse {
+  color: $white;
+  background-color: $gray-800;
+}
+
+.table {
+  &.table-column {
+    th, td {
+      border: none;
+      border-left: 1px solid #e3ebf3;
+    }
+    th:first-child, td:first-child {
+      border-left: none;
+    }
+  }  
+  th, td {
+    padding: 0.75rem 2rem;
+  }
+  &.table-xl {
+    th, td {
+      padding: 1.25rem 2rem;
+    }
+  }
+  &.table-lg {
+    th, td {
+      padding: 0.9rem 2rem;
+    }
+  }
+  &.table-de {
+    th, td {
+      padding: 0.75rem 2rem;
+    }
+  }
+  &.table-sm {
+    th, td {
+      padding: 0.6rem 2rem;
+    }
+  }
+  &.table-xs {
+    th, td {
+      padding: 0.4rem 2rem;
+    }
+  }
+}
+
+/*
+* Table sizing
+*/
+
+// For table borderless
+
+.table-borderless {
+  thead th {
+    border-top: 1px solid $table_border_color;
+  }
+  > tbody > tr > {
+    td, th {
+      border: 0;
+    }
+  }
+}
+
+// For table solid border
+
+.table > {
+  thead > tr {
+    &.border-solid > th {
+      border-bottom-width: 2px;
+    }
+    &.border-double > th {
+      border-bottom-width: 4px;
+      border-bottom-style: double;
+    }
+  }
+  tbody > tr.border-dashed > td {
+    border-top-style: dashed;
+  }
+}
+
+//For table double border
+
+//For table dashed border
+
+.border-custom-color td {
+  border-top: inherit;
+  border-bottom: inherit;
+}
