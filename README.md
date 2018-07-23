@@ -65,12 +65,12 @@ Look no further, **[ThemeSelection](https://themeselection.com/)** provids Selec
 
 If you are looking for more free templates like Chameleon Admin Lite, please visit **[ThemeSelection](https://themeselection.com/)**.
 
-**We request you to keep ThemeSelection credit link in the footer section.**
+
 
 
 ## Note
-It is not mandatory to use Node & Gulp as mentioned below for using this admin template, We have used Node & Gulp to compile SCSS file to CSS and generate minified dist CSS & JS file only. You can use direct CSS and JS files to customize and use this admin template.
-You can use this admin template any JS framework like Angular, React & Vue and integrate with any back-end technology like PHP, Ruby, .Net, Java & Python etc...
+
+**We request you to keep ThemeSelection credit link in the footer section.**
 
 
 ## Installation
@@ -86,6 +86,9 @@ You can use this admin template any JS framework like Angular, React & Vue and i
 git clone https://github.com/YOUR_USERNAME/chameleon-free-bootstrap-admin-template.git
 ```
 **3. Extract & Use**
+
+
+It is not mandatory to use Node & Gulp as mentioned below for using this admin template, We have used Node & Gulp to compile SCSS file to CSS and generate minified dist CSS & JS file only. You can use direct CSS and JS files to customize and use this admin template. You can use this admin template any JS framework like Angular, React & Vue and integrate with any back-end technology like PHP, Ruby, .Net, Java & Python etc...
 
 ### Gulp
 
