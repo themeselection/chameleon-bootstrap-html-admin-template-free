@@ -3,7 +3,7 @@
 Chameleon Admin Lite is a Free Modern Bootstrap 4 WebApp & Admin Dashboard Html Template elegant design, clean and organised code. 
 
 
-Chameleon **[free bootstrap admin template](https://themeselection.com/products/chameleon-admin-free-bootstrap-dashboard-template/)** can be used for any type of web applications: Project Management, eCommerce backends, Analytics, CRM, Fitness or any custom admin panels. It comes with 2 niche dashboards.
+Chameleon **[free bootstrap admin template](https://themeselection.com/products/chameleon-admin-free-bootstrap-dashboard-template/)** can be used for any type of web applications: Project Management, eCommerce backends, Analytics, CRM, Fitness or any custom admin panels. It comes with unique design dashboards.
 
 Chameleon admin template is powered with HTML 5, CSS 3, Bootstrap 4, SASS, Gulp. Responsive design which looks great on Desktops, Tablets, and Mobile Devices. Chameleon bootstrap admin template comes with starter kit which will help developers to get started quickly.
 
@@ -20,7 +20,6 @@ Chameleon admin template is powered with HTML 5, CSS 3, Bootstrap 4, SASS, Gulp.
 
 ## Table of contents
 
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [What's included](#whats-included)
 - [Documentation](#documentation)
@@ -53,12 +52,11 @@ Chameleon admin template is powered with HTML 5, CSS 3, Bootstrap 4, SASS, Gulp.
 |Bootstrap Simple Card| Bootstrap Card & Advance Card UI Cards|
 |-| Date & Time Pickers|
 |-| File Uploaders|
-|-| 10 Chart Libraries|
+|-| 5 Chart Libraries|
 |-| Code Editors|
 |-| Internationalization & RTL Support|
-| Limited colors| 24 Color Schemes|
+| Limited colors| 14 Color Schemes|
 | Regular Support| **Incredible Support**|
-|-| **Walkthrough Videos**|
 |-| **Detailed Documentation**|
 
 ## Looking For Premium Bootstrap Admin Templates ??
@@ -67,20 +65,19 @@ Look no further, **[ThemeSelection](https://themeselection.com/)** provids Selec
 
 If you are looking for more free templates like Chameleon Admin Lite, please visit **[ThemeSelection](https://themeselection.com/)**.
 
+**We request you to keep ThemeSelection credit link in the footer section.**
+
+
 ## Note
 It is not mandatory to use Node & Gulp as mentioned below for using this admin template, We have used Node & Gulp to compile SCSS file to CSS and generate minified dist CSS & JS file only. You can use direct CSS and JS files to customize and use this admin template.
 You can use this admin template any JS framework like Angular, React & Vue and integrate with any back-end technology like PHP, Ruby, .Net, Java & Python etc...
 
-## Prerequisites
-
-NodeJS is required be installed on your system to run node commands.
-You can download and install nodejs from this URL: https://nodejs.org/en/
 
 ## Installation
 
 **1. Download:**
 - Download from Github or 
-- Download from **[Download from ThemeSelection](https://themeselection.com/)** and download the latest release.
+- Download from **[ThemeSelection](https://themeselection.com/products/chameleon-admin-free-bootstrap-dashboard-template/)**.
 
 **2. Github**
 - Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
@@ -88,8 +85,12 @@ You can download and install nodejs from this URL: https://nodejs.org/en/
 ```
 git clone https://github.com/YOUR_USERNAME/chameleon-free-bootstrap-admin-template.git
 ```
+**3. Extract & Use**
 
 ### Gulp
+
+NodeJS is required be installed on your system to run node commands. You can download and install nodejs from this URL: https://nodejs.org/en/
+
 **[GulpJS](http://gulpjs.com/)** is a JavaScipt task runner. In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc...
 
 - Install gulp globally with ``` npm install gulp-cli -g```
@@ -137,7 +138,6 @@ chameleon-admin-lite
 ├── gulpfile.js (gulp tasks)
 ├── README.md
 ├── CHANGELOG.md
-├── package.gulp.json (gulp package json)
 └── package.json (gulp package json)
 ```
 

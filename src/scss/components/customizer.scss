@@ -1,0 +1,73 @@
+/*=========================================================================================
+	File Name: customizer.scss
+	Description: CSS used for demo purpose only. Remove this css from your project.
+	----------------------------------------------------------------------------------------
+	Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
+	Version: 1.0
+	Author: ThemeSelection
+	Author URL: https://themeselection.com/
+==========================================================================================*/
+
+.customizer{
+	width: 400px;
+    right: -400px;
+	padding: 0;
+    background-color: #FFF;
+	z-index: 1051;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    transition: right 0.4s cubic-bezier(0.05, 0.74, 0.2, 0.99);
+    backface-visibility: hidden;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
+	&.open{
+		right: 0;
+	}
+
+	.customizer-content{
+		position: relative;
+    	height: 100%;
+    	overflow-y: scroll;
+	}
+
+	a.customizer-toggle{
+		background: #FFF;
+		color:$primary;
+		display: block;
+		border-radius: 8px 0 0 8px;
+	}
+	a.customizer-close {
+    	color: #000;
+	}
+	.customizer-close{
+		position: absolute;
+	    right: 10px;
+	    top: 10px;
+	    padding: 7px;
+	    width: auto;
+	    z-index: 10;
+	}
+	.customizer-toggle{
+		position: absolute;
+	    top: 35%;
+	    width: 54px;
+	    height: 50px;
+	    left: -54px;
+	    text-align: center;
+	    line-height: 56px;
+	    cursor: pointer;
+	}
+	.color-options{
+		a{
+			white-space:pre;
+		}
+	}
+	.customizer-sidebar-options .active{
+		background-color: $primary;
+		border-color: $primary;
+		color:#FFF;
+	}
+}
