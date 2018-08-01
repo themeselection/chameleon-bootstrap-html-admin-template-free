@@ -32,47 +32,6 @@ Chameleon admin template is powered with HTML 5, CSS 3, Bootstrap 4, SASS, Gulp.
 - [Useful Links](#useful-links)
 - [Social Media](#social-media)
 
-## Looking for more features ? Upgrade To Premium
-
-[![Chameleon Admin – Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit](https://themeselection.com/wp-content/uploads/2018/07/creative-admin-theme.jpg "Chameleon Admin – Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit")](https://themeselection.com/products/chameleon-admin-modern-bootstrap-webapp-dashboard-html-template-ui-kit/)
-
-|Chameleon Admin Lite Features|Chameleon Admin Pro Features|
-|--- | --- |
-|[DEMO](https://themeselection.com/demo/chameleon-free-bootstrap-admin-template/html/ltr/) | [DEMO](https://themeselection.com/demo/chameleon-admin-template/landing/) |
-|[Download](https://themeselection.com/products/chameleon-admin-free-bootstrap-dashboard-template/) | [Purchase](https://themeselection.com/products/chameleon-admin-modern-bootstrap-webapp-dashboard-html-template-ui-kit/) |
-|Single Menu Template|3 Unique Menu Templates with starter kits|
-|1 Simple Dashboards| 2 Niche Dashboards|
-|-| Built in starter-kits for all layouts|
-|-| Email, Chat, Project, Calendar, Project & Invoice Application Page|
-|10+ UI Components & 8 Pages | 100+ UI Components & 500+ Pages|
-|Simple From Elements| Advance form elemens, validation & form wizard|
-|-| Multiple Navbar & Menu Options|
-|-| Header & Footer Customizations|
-|Bootstrap tables| Bootstrap, DataTables|
-|Bootstrap Simple Card| Bootstrap Card & Advance Card UI Cards|
-|-| Date & Time Pickers|
-|-| File Uploaders|
-|-| 5 Chart Libraries|
-|-| Code Editors|
-|-| Internationalization & RTL Support|
-| Limited colors| 14 Color Schemes|
-| Regular Support| **Incredible Support**|
-|-| **Detailed Documentation**|
-
-## Looking For Premium Bootstrap Admin Templates ??
-
-Look no further, **[ThemeSelection](https://themeselection.com/)** provids Selected high quality, modern design, professional and easy-to-use Free Bootstrap Admin Dashboard Template, HTML Themes and UI Kits to create your applications faster!.
-
-If you are looking for more free templates like Chameleon Admin Lite, please visit **[ThemeSelection](https://themeselection.com/)**.
-
-
-
-
-## Note
-
-**We request you to keep ThemeSelection credit link in the footer section.**
-
-
 ## Installation
 
 **1. Download:**
@@ -197,6 +156,16 @@ We will add a detailed release notes to each new release.
 
 Chameleon Free Bootstrap Admin Template is an open source project by [ThemeSelection](https://themeselection.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). ThemeSelection reserves the right to change the license of future releases.
 
+## Note
+
+**We request you to keep ThemeSelection credit link in the footer section.**
+
+## Looking For Premium Bootstrap Admin Templates ??
+
+**[ThemeSelection](https://themeselection.com/)** provids Selected high quality, modern design, professional and easy-to-use Free Bootstrap Admin Dashboard Template, HTML Themes and UI Kits to create your applications faster!.
+
+If you are looking for more free templates like Chameleon Admin Lite, please visit **[ThemeSelection](https://themeselection.com/)**.
+
 ## Useful Links
 
 
@@ -210,5 +179,3 @@ Chameleon Free Bootstrap Admin Template is an open source project by [ThemeSelec
 * Facebook : [https://www.facebook.com/ThemeSelections/](https://www.facebook.com/ThemeSelections/)
 * Pintrest : [https://pinterest.com/themeselect/](https://pinterest.com/themeselect/)
 * Instagram : [https://www.instagram.com/themeselect_official/](https://www.instagram.com/themeselect_official/)
-
-
