@@ -1,0 +1,19 @@
+{
+  "name": "ve-dash-new",
+  "version": "1.0.0",
+  "description": "Dashboard for VE",
+  "main": "index.html",
+  "scripts": {
+    "test": "the test now"
+  },
+  "keywords": [
+    "Dashboard",
+    "ui",
+    "ux"
+  ],
+  "author": "David Taylor",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "transitions.scss"
+    ],
+    "names": [],
+    "file": "transitions.css"
+}
