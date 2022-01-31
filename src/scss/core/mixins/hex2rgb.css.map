@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "hex2rgb.scss"
+    ],
+    "names": [],
+    "file": "hex2rgb.css"
+}

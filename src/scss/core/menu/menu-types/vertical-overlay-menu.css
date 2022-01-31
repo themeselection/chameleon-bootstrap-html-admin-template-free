@@ -1,0 +1,159 @@
+/*=========================================================================================
+	File Name: vertical-overlay-menu.scss
+	Description: A overlay style vertical menu with show and hide support. It support 
+	light & dark version, filpped layout, right side icons, native scroll and borders menu 
+	item seperation.
+	----------------------------------------------------------------------------------------
+	Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
+	Version: 1.0
+	Author: ThemeSelection
+	Author URL: https://themeselection.com/
+==========================================================================================*/
+.vertical-overlay-menu .content {
+  margin-left: 0;
+}
+
+.vertical-overlay-menu .navbar .navbar-header {
+  width: 260px;
+  z-index: 999;
+}
+
+.vertical-overlay-menu .navbar.navbar-brand-center .navbar-container {
+  margin-left: 0;
+}
+
+.vertical-overlay-menu .navbar.navbar-brand-center .navbar-header {
+  width: auto;
+  z-index: 999;
+}
+
+.vertical-overlay-menu .main-menu, .vertical-overlay-menu.menu-hide .main-menu {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transition: width .25s,opacity .25s,-webkit-transform .25s;
+  transition: width .25s,opacity .25s,-webkit-transform .25s;
+  transition: width .25s,opacity .25s,transform .25s;
+  transition: width .25s,opacity .25s,transform .25s,-webkit-transform .25s;
+  width: 260px;
+  left: -260px;
+}
+
+.vertical-overlay-menu .main-menu .navigation .navigation-header .ft-minus {
+  display: none;
+}
+
+.vertical-overlay-menu .main-menu .navigation > li > a > i {
+  font-size: 1.5rem;
+  margin-right: 12px;
+  float: left;
+}
+
+.vertical-overlay-menu .main-menu .navigation > li > a > i:before {
+  -webkit-transition: 200ms ease all;
+  transition: 200ms ease all;
+}
+
+.vertical-overlay-menu .main-menu .navigation li.has-sub > a:not(.mm-next):after {
+  content: "\f112";
+  font-family: 'LineAwesome';
+  font-size: 0.85rem;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  transition: -webkit-transform 0.2s ease-in-out;
+}
+
+.vertical-overlay-menu .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after {
+  top: 8px;
+}
+
+.vertical-overlay-menu .main-menu .navigation li.open > a:not(.mm-next):after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.vertical-overlay-menu .main-menu .main-menu-footer {
+  bottom: 55px;
+}
+
+.vertical-overlay-menu .main-menu .main-menu-footer {
+  width: 260px;
+}
+
+.vertical-overlay-menu.menu-open .main-menu {
+  opacity: 1;
+  -webkit-transform: translate3d(260px, 0, 0);
+          transform: translate3d(260px, 0, 0);
+  -webkit-transition: width .25s,opacity .25s,-webkit-transform .25s;
+  transition: width .25s,opacity .25s,-webkit-transform .25s;
+  transition: width .25s,opacity .25s,transform .25s;
+  transition: width .25s,opacity .25s,transform .25s,-webkit-transform .25s;
+}
+
+.vertical-overlay-menu.menu-open .main-menu.menu-light .navigation > li > a > i {
+  display: inline-block;
+  margin-right: 20px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 12%;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+.vertical-overlay-menu.menu-open .main-menu.menu-light .navigation .hover > a > i, .vertical-overlay-menu.menu-open .main-menu.menu-light .navigation:hover > a > i, .vertical-overlay-menu.menu-open .main-menu.menu-light .navigation .open > a > i {
+  -webkit-box-shadow: 0px 0px 20px rgba(253, 99, 107, 0.3);
+          box-shadow: 0px 0px 20px rgba(253, 99, 107, 0.3);
+}
+
+.vertical-overlay-menu.menu-open .main-menu.menu-dark .navigation > li > a > i {
+  display: inline-block;
+  margin-right: 20px;
+  background: #2C303B;
+  width: 40px;
+  height: 40px;
+  border-radius: 12%;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+
+.vertical-overlay-menu.menu-open .main-menu.menu-dark .navigation .hover > a > i, .vertical-overlay-menu.menu-open .main-menu.menu-dark .navigation:hover > a > i, .vertical-overlay-menu.menu-open .main-menu.menu-dark .navigation .open > a > i {
+  -webkit-box-shadow: 0px 0px 20px rgba(253, 99, 107, 0.3);
+          box-shadow: 0px 0px 20px rgba(253, 99, 107, 0.3);
+}
+
+.vertical-overlay-menu.menu-flipped .main-menu {
+  right: -260px;
+  left: inherit;
+}
+
+.vertical-overlay-menu.menu-flipped .navbar .navbar-container {
+  margin: 0;
+  margin-right: 260px;
+}
+
+.vertical-overlay-menu.menu-flipped .navbar .navbar-header {
+  float: right;
+}
+
+.vertical-overlay-menu.menu-flipped.menu-open .main-menu {
+  -webkit-transform: translate3d(-260px, 0, 0);
+          transform: translate3d(-260px, 0, 0);
+}
+
+@media (max-width: 991.98px) {
+  .vertical-overlay-menu .main-menu .main-menu-footer {
+    bottom: 0px;
+  }
+}
+/*# sourceMappingURL=vertical-overlay-menu.css.map */

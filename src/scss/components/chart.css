@@ -1,0 +1,24 @@
+.chart-container {
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    overflow-x: scroll;
+    overflow-y: visible;
+    max-width: 100%;
+  }
+}
+
+.chart {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.jqstooltip {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+/*# sourceMappingURL=chart.css.map */

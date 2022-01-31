@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "palette-variables.scss",
+        "../../../../assets/scss/colors/palette-variables.scss"
+    ],
+    "names": [],
+    "file": "palette-variables.css"
+}

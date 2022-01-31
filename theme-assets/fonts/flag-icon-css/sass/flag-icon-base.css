@@ -1,0 +1,18 @@
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333em;
+  line-height: 1em;
+}
+
+.flag-icon:before {
+  content: '\00a0';
+}
+
+.flag-icon.flag-icon-squared {
+  width: 1em;
+}
+/*# sourceMappingURL=flag-icon-base.css.map */
