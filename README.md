@@ -3,7 +3,7 @@
 Chameleon Admin Lite is a Free Modern Bootstrap 4 WebApp & Admin Dashboard Html Template elegant design, clean and organised code. 
 
 
-Chameleon is one of the best **[Bootstrap Admin Templates](https://themeselection.com/products/category/bootstrap-admin-templates/)** can be used for any type of web applications: Project Management, eCommerce backends, Analytics, CRM, Fitness or any custom admin panels. It comes with unique design dashboards.
+Chameleon is one of the best **[Bootstrap Admin Templates](https://themeselection.com/products/category/bootstrap-admin-templates/)**. It can be used for any type of web applications: Project Management, eCommerce backends, Analytics, CRM, Fitness or any custom admin panels. It comes with unique design dashboards.
 
 Chameleon admin template is powered with HTML 5, CSS 3, Bootstrap 4, SASS, Gulp. Responsive design which looks great on Desktops, Tablets, and Mobile Devices. Chameleon bootstrap admin template comes with starter kit which will help developers to get started quickly.
 
