@@ -3,7 +3,7 @@
 Chameleon Admin Lite is a Free Modern Bootstrap 4 WebApp & Admin Dashboard Html Template elegant design, clean and organised code. 
 
 
-Chameleon **[free bootstrap admin template](https://themeselection.com/products/chameleon-admin-free-bootstrap-dashboard-template/)** can be used for any type of web applications: Project Management, eCommerce backends, Analytics, CRM, Fitness or any custom admin panels. It comes with unique design dashboards.
+Chameleon is one of the best **[Bootstrap Admin Templates](https://themeselection.com/products/category/bootstrap-admin-templates/)** can be used for any type of web applications: Project Management, eCommerce backends, Analytics, CRM, Fitness or any custom admin panels. It comes with unique design dashboards.
 
 Chameleon admin template is powered with HTML 5, CSS 3, Bootstrap 4, SASS, Gulp. Responsive design which looks great on Desktops, Tablets, and Mobile Devices. Chameleon bootstrap admin template comes with starter kit which will help developers to get started quickly.
 
@@ -160,11 +160,11 @@ Chameleon Free Bootstrap Admin Template is an open source project by [ThemeSelec
 
 **We request you to keep ThemeSelection credit link in the footer section.**
 
-## Looking For Premium Bootstrap Admin Templates ??
+## Looking For Premium Bootstrap Admin Templates?
 
-**[ThemeSelection](https://themeselection.com/)** provids Selected high quality, modern design, professional and easy-to-use Free Bootstrap Admin Dashboard Template, HTML Themes and UI Kits to create your applications faster!.
+**[ThemeSelection](https://themeselection.com/)** provids Selected high quality, modern design, professional and easy-to-use Free and premium Admin Templates, HTML Themes and UI Kits to create your applications faster!.
 
-If you are looking for more free templates like Chameleon Admin Lite, please visit **[ThemeSelection](https://themeselection.com/)**.
+If you want to [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/) like Chameleon Admin Lite, please visit **[ThemeSelection](https://themeselection.com/)**.
 
 ## Useful Links
 
